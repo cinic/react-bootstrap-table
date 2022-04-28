@@ -2,14 +2,14 @@
 [![Build Status](https://travis-ci.org/react-bootstrap-table/react-bootstrap-table2.svg?branch=master)](https://travis-ci.org/react-bootstrap-table/react-bootstrap-table2)  
 Rebuilt [react-bootstrap-table](https://github.com/AllenFang/react-bootstrap-table)
 
-> `react-bootstrap-table2`'s npm module name is [**`react-bootstrap-table-next`**](https://www.npmjs.com/package/react-bootstrap-table-next) due to some guys already used it   
+> `react-bootstrap-table2`'s npm module name is [**`@cinic/react-bootstrap-table-next`**](https://www.npmjs.com/package/react-bootstrap-table-next) due to some guys already used it   
 
 `react-bootstrap-table2` separate some functionalities from core modules to other modules like following:
 
-* [`react-bootstrap-table-next`](https://www.npmjs.com/package/react-bootstrap-table-next)
+* [`react-bootstrap-table-next`](https://www.npmjs.com/package/@cinic/react-bootstrap-table-next)
 * [`react-bootstrap-table2-filter`](https://www.npmjs.com/package/react-bootstrap-table2-filter)
 * [`react-bootstrap-table2-editor`](https://www.npmjs.com/package/react-bootstrap-table2-editor)
-* [`react-bootstrap-table2-paginator`](https://www.npmjs.com/package/react-bootstrap-table2-paginator)
+* [`react-bootstrap-table2-paginator`](https://www.npmjs.com/package/@cinic/react-bootstrap-table2-paginator)
 * [`react-bootstrap-table2-overlay`](https://www.npmjs.com/package/react-bootstrap-table2-overlay)
 * [`react-bootstrap-table2-toolkit`](https://www.npmjs.com/package/react-bootstrap-table2-toolkit)
 
@@ -33,8 +33,8 @@ Please check [development guide](./docs/development.md).
 ## How should I run storybook example in my local?
 
 ```sh
-$ git clone https://github.com/react-bootstrap-table/react-bootstrap-table2.git
-$ cd react-bootstrap-table2
+$ git clone https://github.com/cinic/react-bootstrap-table.git
+$ cd react-bootstrap-table
 $ yarn install
 $ yarn storybook
 $ Go to localhost:6006
