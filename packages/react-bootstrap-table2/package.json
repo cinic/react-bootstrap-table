@@ -1,11 +1,11 @@
 {
-  "name": "react-bootstrap-table-next",
+  "name": "@cinic/react-bootstrap-table-next",
   "version": "1.1.1",
   "description": "Next generation of react-bootstrap-table",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-bootstrap-table/react-bootstrap-table2.git"
+    "url": "git+https://github.com/cinic/react-bootstrap-table.git"
   },
   "license": "MIT",
   "keywords": [
@@ -42,7 +42,7 @@
   "peerDependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.0.0",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

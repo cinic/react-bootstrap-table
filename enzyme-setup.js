@@ -1,8 +1,4 @@
-import Adapter from 'enzyme-adapter-react-16';
-import { configure } from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 
-const configureEnzyme = () => {
-  configure({ adapter: new Adapter() });
-};
-
-configureEnzyme();
+Enzyme.configure({ adapter: new Adapter() });
