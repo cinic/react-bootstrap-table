@@ -1,4 +1,4 @@
-# react-bootstrap-table-next
+# @cinic/react-bootstrap-table-next
 Next generation of [`react-bootstrap-table`](https://github.com/AllenFang/react-bootstrap-table)
 
 ## Usage
@@ -6,7 +6,11 @@ Next generation of [`react-bootstrap-table`](https://github.com/AllenFang/react-
 ### Installation
 
 ```sh
-npm install react-bootstrap-table-next --save
+npm install @cinic/react-bootstrap-table-next --save
+```
+or
+```sh
+yarn add @cinic/react-bootstrap-table-next
 ```
 
 ### Include CSS
@@ -15,16 +19,16 @@ npm install react-bootstrap-table-next --save
 
 ```js
 // es5 
-require('react-bootstrap-table-next/dist/react-bootstrap-table2.min.css');
+require('@cinic/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css');
 
 // es6
-import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+import '@cinic/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 ```
 
 ### Your First Table
 
 ```js
-import BootstrapTable from 'react-bootstrap-table-next';
+import BootstrapTable from '@cinic/react-bootstrap-table-next';
 
 const products = [ ... ];
 const columns = [{
